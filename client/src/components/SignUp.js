@@ -29,6 +29,8 @@ export default function SignUp({ setChanged, setUserInfo }) {
             }).catch(err => {
                 const errorResponse = err.response.data.errors; // Get the errors from err.response.data
                 // Set Errors
+                console.log(err)
+                console.log(errorResponse)
                 setErrors(errorResponse);
             });
 

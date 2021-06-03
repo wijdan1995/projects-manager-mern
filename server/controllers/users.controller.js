@@ -20,7 +20,7 @@ class UserController {
                 } else {
                     res.status(400).json({
                         errors: {
-                            name: {
+                            email: {
                                 message: `User already exists`
                             }
                         }

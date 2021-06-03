@@ -75,7 +75,7 @@ function App() {
         </Router>
       </div>
       <footer>
-        <p>
+        <p className="mt-2">
           &copy; 2021 Created with &hearts; by <a href="https://github.com/wijdan1995">Wijdan</a>
         </p>
       </footer>

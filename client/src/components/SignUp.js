@@ -37,7 +37,7 @@ export default function SignUp({ setChanged, setUserInfo }) {
     }
     return (
         <>
-            <form onSubmit={onSubmitHandler}>
+            <form className="mb-4" onSubmit={onSubmitHandler}>
                 <div className={`form-group d-grid gap-2 ${errors?.message && 'has-danger'} mb-2`}>
                     <h4 className="form-label">Sign Up</h4>
                     <div className="form-floating mb-3">
